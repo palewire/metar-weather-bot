@@ -1,9 +1,12 @@
 """A command-line interface for metar-weather-bot."""
 import json
+import os
+from datetime import datetime
 
 import click
 import pytz
 import requests
+import twitter
 from metar import Metar
 from retry import retry
 from rich import print
@@ -13,6 +16,57 @@ from rich import print
 def cli():
     """Download, parse and post weather data from LAX airport."""
     pass
+
+
+@cli.command()
+def tweet():
+    """Post a tweet to @LAXWeatherReport."""
+    print("🐦 Posting to @LAXWeatherReport on Twitter")
+
+    # Read in data
+    data = json.load(open("./latest.json"))
+
+    # Format the message
+    dt = datetime.strptime(data["local_time"], "%Y-%m-%d %H:%M:%S%z")
+    message = f"KLAX conditions at {dt.strftime('%-H:%M %p')}\n\n"
+
+    if data["temperature"]:
+        message += f"🌡️ {data['temperature']}\n"
+
+    if data["dewpoint"]:
+        message += f"🌫️ {data['dewpoint']} dew point\n"
+
+    if data["wind"]:
+        message += f"🌬️ {data['wind']}\n"
+
+    if data["visibility"]:
+        message += f"🔭 {data['visibility']} visibility\n"
+
+    if data["sky"]:
+        message += f"☁️ {data['sky']}\n"
+
+    if data["precipitation"]:
+        s = data["precipitation"]
+        if "thunder" in s:
+            message += f"⛈️ {s}\n"
+        elif "drizzle" in s or "rain" in s:
+            message += f"🌧️ {s}\n"
+        elif "snow" in s or "ice" in s:
+            message += f"🌨️ {s}\n"
+        else:
+            message += f"🌧️ {s}\n"
+
+    # Tack on some hashtags
+    message += "\n#wx #CAwx #metar\n"
+    print(message)
+
+    # Post the message
+
+
+#    api = get_twitter_client()
+#    io = open("latest.jpg", "rb")
+#    media_id = api.UploadMediaSimple(io)
+#    api.PostUpdate(message, media=[media_id])
 
 
 @cli.command()
@@ -76,6 +130,16 @@ def _request(url, **kwargs):
     r = requests.get(url, **kwargs)
     assert r.ok
     return r
+
+
+def get_twitter_client():
+    """Return a Twitter client ready to post to the API."""
+    return twitter.Api(
+        consumer_key=os.getenv("TWITTER_CONSUMER_KEY"),
+        consumer_secret=os.getenv("TWITTER_CONSUMER_SECRET"),
+        access_token_key=os.getenv("TWITTER_ACCESS_TOKEN_KEY"),
+        access_token_secret=os.getenv("TWITTER_ACCESS_TOKEN_SECRET"),
+    )
 
 
 if __name__ == "__main__":

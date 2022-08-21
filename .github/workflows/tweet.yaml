@@ -1,0 +1,43 @@
+name: Tweet
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */2 * * *'
+
+jobs:
+  tweet:
+    name: Tweet
+    runs-on: ubuntu-latest
+    steps:
+      - id: checkout
+        name: Checkout repository
+        uses: actions/checkout@v3
+
+      - id: install-pipenv
+        name: Install pipenv
+        run: pipx install pipenv
+        shell: bash
+
+      - id: install-python
+        name: Install Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.9"
+          cache: "pipenv"
+
+      - id: install-python-dependencies
+        name: Install Python dependencies
+        run: pipenv install --python=3.9
+
+      - id: execute
+        name: Execute
+        run: |
+            pipenv run python cli.py abc7
+            pipenv run python cli.py metar
+            pipenv run python cli.py tweet
+        shell: bash
+#        env:
+#          TWITTER_CONSUMER_KEY: ${{ secrets.TWITTER_CONSUMER_KEY }}
+#          TWITTER_CONSUMER_SECRET: ${{ secrets.TWITTER_CONSUMER_SECRET }}
+#          TWITTER_ACCESS_TOKEN_KEY: ${{ secrets.TWITTER_ACCESS_TOKEN_KEY }}
+#          TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
