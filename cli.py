@@ -37,19 +37,19 @@ def tweet():
         message += f"🌫️ {data['dewpoint']} dew point\n"
 
     if data["wind"]:
-        message += f"🌬️ {data['wind'].title()}\n"
+        message += f"🌬️ {data['wind'].s.capitalize()}\n"
 
     if data["visibility"]:
         message += f"🔭 {data['visibility']} visibility\n"
 
     if data["sky"]:
-        message += f"☁️ {data['sky'].title()}\n"
+        message += f"☁️ {data['sky'].s.capitalize()}\n"
 
     if data["pressure"]:
         message += f"⏱️ {data['pressure']} air pressure\n"
 
     if data["precipitation"]:
-        s = data["precipitation"].title()
+        s = data["precipitation"].s.capitalize()
         if "thunder" in s:
             message += f"⛈️ {s}\n"
         elif "drizzle" in s or "rain" in s:
@@ -64,7 +64,6 @@ def tweet():
     print(message)
 
     # Post the message
-
 #    api = get_twitter_client()
 #    io = open("latest.jpg", "rb")
 #    media_id = api.UploadMediaSimple(io)
