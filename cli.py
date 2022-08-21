@@ -60,7 +60,7 @@ def tweet():
             message += f"🌧️ {s}\n"
 
     # Add source URL
-    message += "https://aviationweather.gov/adds/metars/index?submit=1&station_ids=KLAX&chk_metars=on&hoursStr=8&std_trans=translated\n"
+    message += "Source: https://aviationweather.gov/adds/metars/index?submit=1&station_ids=KLAX&chk_metars=on&hoursStr=8&std_trans=translated\n"
             
     # Tack on some hashtags
     message += "\n#wx #metar #CAwx #klax"
