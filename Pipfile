@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+click = "*"
+python-metar = "*"
+python-twitter = "*"
+pytz = "*"
+requests = "*"
+retry = "*"
+
+[dev-packages]
+pre-commit = "*"
+pytest = "*"
+flake8 = "*"
+mypy = "*"
+types-requests = "*"
+types-pytz = "*"
+types-retry = "*"
+
+[requires]
+python_version = "3.9"
