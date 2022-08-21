@@ -61,18 +61,34 @@ def tweet():
 
     # Add source URL
     message += "Source: https://aviationweather.gov/adds/metars/index?submit=1&station_ids=KLAX&chk_metars=on&hoursStr=8&std_trans=translated\n"
-            
+
     # Tack on some hashtags
     message += "\n#CAwx #klax"
     print(message)
 
     # Post the message
+
+
 #    api = get_twitter_client()
 #    io = open("latest.jpg", "rb")
 #    media_id = api.UploadMediaSimple(io)
 #    alt_text = "A screen capture from the @ABC7 web camera at LAX airport"
 #    api.PostMediaMetadata(media_id, alt_text)
 #    api.PostUpdate(message, media=[media_id])
+
+
+@cli.command()
+def aqi():
+    """Download Air Quality Index data from the EPA."""
+    print("🏭 Downloading EPA air quality data")
+
+    # Download the data
+    api_key = os.getenv("EPA_API_KEY")
+    url = f"https://www.airnowapi.org/aq/observation/zipCode/current/?format=application/json&zipCode=90045&distance=25&API_KEY={api_key}"
+    r = _request(url)
+
+    # Write it out
+    json.dump(r.json(), open("./aqi.json", "w"), indent=2)
 
 
 @cli.command()
@@ -134,7 +150,10 @@ def abc7():
 @retry(tries=3, delay=5, backoff=2)
 def _request(url, **kwargs):
     r = requests.get(url, **kwargs)
-    assert r.ok
+    try:
+        assert r.ok
+    except AssertionError:
+        r.raise_for_status()
     return r
 
 

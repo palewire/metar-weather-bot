@@ -34,6 +34,7 @@ jobs:
         run: |
             pipenv run python cli.py abc7
             pipenv run python cli.py metar
+            pipenv run python cli.py aqi
             pipenv run python cli.py tweet
         shell: bash
 #        env:
