@@ -64,9 +64,13 @@ def tweet():
     print(message)
 
     # Post the message
+
+
 #    api = get_twitter_client()
 #    io = open("latest.jpg", "rb")
 #    media_id = api.UploadMediaSimple(io)
+#    alt_text = "A screen capture from the @ABC7 web camera at LAX airport"
+#    api.PostMediaMetadata(media_id, alt_text)
 #    api.PostUpdate(message, media=[media_id])
 
 
