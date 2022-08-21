@@ -60,7 +60,7 @@ def tweet():
             message += f"🌧️ {s}\n"
 
     # Tack on some hashtags
-    message += "\n#wx #metar #CAwx #klax\n"
+    message += "\n#wx #metar #CAwx #klax"
     print(message)
 
     # Post the message
