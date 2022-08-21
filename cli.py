@@ -28,7 +28,7 @@ def tweet():
 
     # Format the message
     dt = datetime.strptime(data["local_time"], "%Y-%m-%d %H:%M:%S%z")
-    message = f"KLAX conditions at {dt.strftime('%-H:%M %p')}\n\n"
+    message = f"LAX conditions at {dt.strftime('%-H:%M %p')}\n\n"
 
     if data["temperature"]:
         message += f"🌡️ {data['temperature']}\n"
@@ -60,11 +60,10 @@ def tweet():
             message += f"🌧️ {s}\n"
 
     # Tack on some hashtags
-    message += "\n#wx #CAwx #metar\n"
+    message += "\n#wx #metar #CAwx #klax\n"
     print(message)
 
     # Post the message
-
 
 #    api = get_twitter_client()
 #    io = open("latest.jpg", "rb")
