@@ -45,6 +45,9 @@ def tweet():
     if data["sky"]:
         message += f"☁️ {data['sky']}\n"
 
+    if data["pressure"]:
+        message += f"⏱️ {data['pressure']}\n"
+
     if data["precipitation"]:
         s = data["precipitation"]
         if "thunder" in s:
