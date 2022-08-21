@@ -10,6 +10,7 @@ python-twitter = "*"
 pytz = "*"
 requests = "*"
 retry = "*"
+rich = "*"
 
 [dev-packages]
 pre-commit = "*"
@@ -19,6 +20,7 @@ mypy = "*"
 types-requests = "*"
 types-pytz = "*"
 types-retry = "*"
+black = "*"
 
 [requires]
 python_version = "3.9"
