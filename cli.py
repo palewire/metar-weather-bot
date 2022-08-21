@@ -37,19 +37,19 @@ def tweet():
         message += f"🌫️ {data['dewpoint']} dew point\n"
 
     if data["wind"]:
-        message += f"🌬️ {data['wind'].s.capitalize()}\n"
+        message += f"🌬️ {data['wind'].capitalize()}\n"
 
     if data["visibility"]:
         message += f"🔭 {data['visibility']} visibility\n"
 
     if data["sky"]:
-        message += f"☁️ {data['sky'].s.capitalize()}\n"
+        message += f"☁️ {data['sky'].capitalize()}\n"
 
     if data["pressure"]:
         message += f"⏱️ {data['pressure']} air pressure\n"
 
     if data["precipitation"]:
-        s = data["precipitation"].s.capitalize()
+        s = data["precipitation"].capitalize()
         if "thunder" in s:
             message += f"⛈️ {s}\n"
         elif "drizzle" in s or "rain" in s:
