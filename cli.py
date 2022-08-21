@@ -24,32 +24,33 @@ def tweet():
     print("🐦 Posting to @LAXWeatherReport on Twitter")
 
     # Read in data
-    data = json.load(open("./latest.json"))
+    metar = json.load(open("./latest.json"))
+    aqi = json.load(open("./aqi.json"))
 
-    # Format the message
-    dt = datetime.strptime(data["local_time"], "%Y-%m-%d %H:%M:%S%z")
+    # Format the metar message
+    dt = datetime.strptime(metar["local_time"], "%Y-%m-%d %H:%M:%S%z")
     message = f"LAX conditions at {dt.strftime('%-H:%M %p')}\n\n"
 
-    if data["temperature"]:
-        message += f"🌡️ {data['temperature']}\n"
+    if metar["temperature"]:
+        message += f"🌡️ {metar['temperature']}\n"
 
-    if data["dewpoint"]:
-        message += f"🌫️ {data['dewpoint']} dew point\n"
+    if metar["dewpoint"]:
+        message += f"🌫️ {metar['dewpoint']} dew point\n"
 
-    if data["wind"]:
-        message += f"🌬️ {data['wind'].capitalize()}\n"
+    if metar["wind"]:
+        message += f"🌬️ {metar['wind'].capitalize()}\n"
 
-    if data["visibility"]:
-        message += f"🔭 {data['visibility']} visibility\n"
+    if metar["visibility"]:
+        message += f"🔭 {metar['visibility']} visibility\n"
 
-    if data["sky"]:
-        message += f"☁️ {data['sky'].capitalize()}\n"
+    if metar["sky"]:
+        message += f"☁️ {metar['sky'].capitalize()}\n"
 
-    if data["pressure"]:
-        message += f"⏱️ {data['pressure']} air pressure\n"
+    if metar["pressure"]:
+        message += f"⏱️ {metar['pressure']} air pressure\n"
 
-    if data["precipitation"]:
-        s = data["precipitation"].capitalize()
+    if metar["precipitation"]:
+        s = metar["precipitation"].capitalize()
         if "thunder" in s:
             message += f"⛈️ {s}\n"
         elif "drizzle" in s or "rain" in s:
@@ -59,14 +60,28 @@ def tweet():
         else:
             message += f"🌧️ {s}\n"
 
-    # Add source URL
-    message += "Source: https://aviationweather.gov/adds/metars/index?submit=1&station_ids=KLAX&chk_metars=on&hoursStr=8&std_trans=translated\n"
+    # Add EPA air quality data
+    pm25 = next(d for d in aqi if d["ParameterName"] == "PM2.5")
+    category = pm25["Category"]["Number"]
+    if category == 1:
+        message += f"🟩 {pm25['AQI']} AQI\n"
+    elif category == 2:
+        message += f"🟨 {pm25['AQI']} AQI\n"
+    elif category == 3:
+        message += f"🟧 {pm25['AQI']} AQI\n"
+    elif category == 4:
+        message += f"🟥 {pm25['AQI']} AQI\n"
+    elif category == 5:
+        message += f"🟪 {pm25['AQI']} AQI\n"
+    elif category == 6:
+        message += f"🟫 {pm25['AQI']} AQI\n"
 
     # Tack on some hashtags
     message += "\n#CAwx #klax"
     print(message)
 
     # Post the message
+    print(f"Tweet is {len(message)} characters long.")
 
 
 #    api = get_twitter_client()
