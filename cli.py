@@ -64,8 +64,6 @@ def tweet():
     print(message)
 
     # Post the message
-
-
 #    api = get_twitter_client()
 #    io = open("latest.jpg", "rb")
 #    media_id = api.UploadMediaSimple(io)
