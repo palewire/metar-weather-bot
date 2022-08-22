@@ -38,7 +38,7 @@ def tweet():
         message += f"🌫️ {metar['dewpoint']} dew point\n"
 
     if metar["wind"]:
-        message += f"🌬️ {metar['wind'].capitalize()}\n"
+        message += f"🌬️ {_clean_wind(metar['wind'])}\n"
 
     if metar["visibility"]:
         message += f"🔭 {metar['visibility']} visibility\n"
@@ -87,6 +87,31 @@ def tweet():
     alt_text = "A screen capture from the @ABC7 web camera at LAX airport"
     api.PostMediaMetadata(media_id, alt_text)
     api.PostUpdate(message, media=[media_id])
+
+
+def _clean_wind(s):
+    crosswalk = {
+        "N": "North",
+        "NNE": "North-northeast",
+        "NE": "Northeast",
+        "ENE": "East-northeast",
+        "E": "East",
+        "ESE": "East-southeast",
+        "SE": "Southeast",
+        "SSE": "South-southeast",
+        "S": "South",
+        "SSW": "South-southwest",
+        "SW": "Southwest",
+        "WSW": "West-southwest",
+        "W": "West",
+        "WNW": "West-Northwest",
+        "NW": "Northwest",
+        "NNW": "North-northwest",
+    }
+    for key, value in crosswalk.items():
+        if s.startswith(key + " "):
+            s = s.replace(key + " ", value + " ")
+    return s.capitalize()
 
 
 @cli.command()
