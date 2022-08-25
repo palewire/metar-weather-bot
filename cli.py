@@ -29,7 +29,7 @@ def tweet():
 
     # Format the metar message
     dt = datetime.strptime(metar["local_time"], "%Y-%m-%d %H:%M:%S%z")
-    message = f"LAX conditions at {dt.strftime('%-I:%M %p')}\n\n"
+    message = f"LAX weather at {dt.strftime('%-I:%M %p')}\n\n"
 
     if metar["temperature"]:
         message += f"🌡️ {metar['temperature']}\n"
