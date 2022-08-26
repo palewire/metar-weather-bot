@@ -61,23 +61,28 @@ def tweet():
             message += f"🌧️ {s}\n"
 
     # Add EPA air quality data
-    pm25 = next(d for d in aqi if d["ParameterName"] == "PM2.5")
-    category = pm25["Category"]["Number"]
-    if category == 1:
-        message += f"🟩 {pm25['AQI']} AQI\n"
-    elif category == 2:
-        message += f"🟨 {pm25['AQI']} AQI\n"
-    elif category == 3:
-        message += f"🟧 {pm25['AQI']} AQI\n"
-    elif category == 4:
-        message += f"🟥 {pm25['AQI']} AQI\n"
-    elif category == 5:
-        message += f"🟪 {pm25['AQI']} AQI\n"
-    elif category == 6:
-        message += f"🟫 {pm25['AQI']} AQI\n"
+    try:
+        pm25 = next(d for d in aqi if d["ParameterName"] == "PM2.5")
+    except:
+        print("EPA data retrieval failed")
+        pm25 = None
+    if pm25:
+        category = pm25["Category"]["Number"]
+        if category == 1:
+            message += f"🟩 {pm25['AQI']} AQI\n"
+        elif category == 2:
+            message += f"🟨 {pm25['AQI']} AQI\n"
+        elif category == 3:
+            message += f"🟧 {pm25['AQI']} AQI\n"
+        elif category == 4:
+            message += f"🟥 {pm25['AQI']} AQI\n"
+        elif category == 5:
+            message += f"🟪 {pm25['AQI']} AQI\n"
+        elif category == 6:
+            message += f"🟫 {pm25['AQI']} AQI\n"
 
     # Tack on some hashtags
-    message += "\n#CAwx #klax"
+    message += "\n#CAwx"
 
     # Post the message
     print(f"Tweet is {len(message)} characters long.")
