@@ -1,11 +1,11 @@
 {
   "temperature": "66.9 F",
   "dewpoint": "64.0 F",
-  "wind": "NW at 5 knots",
-  "visibility": "9 miles",
+  "wind": "WNW at 5 knots",
+  "visibility": "8 miles",
   "runway": null,
-  "pressure": "1015.2 mb",
-  "sky": "a few clouds at 400 feet; overcast at 800 feet",
+  "pressure": "1014.6 mb",
+  "sky": "a few clouds at 400 feet; overcast at 700 feet",
   "precipitation": null,
-  "local_time": "2022-08-26 00:53:00-07:00"
+  "local_time": "2022-08-26 02:53:00-07:00"
 }
