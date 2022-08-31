@@ -1,11 +1,11 @@
 {
-  "temperature": "75.9 F",
-  "dewpoint": "57.0 F",
-  "wind": "WSW at 16 knots",
+  "temperature": "75.0 F",
+  "dewpoint": "57.9 F",
+  "wind": "W at 15 knots",
   "visibility": "10 miles",
   "runway": null,
-  "pressure": "1012.9 mb",
+  "pressure": "1011.9 mb",
   "sky": "a few clouds at 10000 feet",
   "precipitation": null,
-  "local_time": "2022-08-30 14:53:00-07:00"
+  "local_time": "2022-08-30 16:53:00-07:00"
 }
