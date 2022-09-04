@@ -1,11 +1,11 @@
 {
-  "temperature": "80.1 F",
+  "temperature": "82.9 F",
   "dewpoint": "61.0 F",
-  "wind": "calm",
+  "wind": "NNE at 3 knots",
   "visibility": "10 miles",
   "runway": null,
-  "pressure": "1011.9 mb",
-  "sky": "clear",
+  "pressure": "1011.2 mb",
+  "sky": "scattered clouds at 12000 feet; scattered clouds at 18000 feet",
   "precipitation": null,
-  "local_time": "2022-09-04 04:53:00-07:00"
+  "local_time": "2022-09-04 06:53:00-07:00"
 }
