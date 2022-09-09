@@ -66,7 +66,7 @@ def tweet():
     except:
         print("EPA data retrieval failed")
         pm25 = None
-    if pm25:
+    if pm25 and len(message) < 220:
         category = pm25["Category"]["Number"]
         if category == 1:
             message += f"🟩 {pm25['AQI']} AQI\n"
