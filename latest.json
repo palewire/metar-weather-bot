@@ -1,11 +1,11 @@
 {
-  "temperature": "69.1 F",
+  "temperature": "68.0 F",
   "dewpoint": "63.0 F",
-  "wind": "NNE at 4 knots",
-  "visibility": "8 miles",
+  "wind": "calm",
+  "visibility": "6 miles",
   "runway": null,
-  "pressure": "1016.9 mb",
+  "pressure": "1016.6 mb",
   "sky": "a few clouds at 900 feet; overcast at 1200 feet",
   "precipitation": null,
-  "local_time": "2022-10-07 02:53:00-07:00"
+  "local_time": "2022-10-07 04:53:00-07:00"
 }
