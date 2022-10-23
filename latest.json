@@ -1,11 +1,11 @@
 {
   "temperature": "64.9 F",
   "dewpoint": "55.9 F",
-  "wind": "SW at 10 knots",
+  "wind": "SSW at 8 knots, gusting to 16 knots",
   "visibility": "10 miles",
   "runway": null,
-  "pressure": "1007.5 mb",
-  "sky": "scattered clouds at 1500 feet; broken clouds at 2500 feet; overcast at 4900 feet",
+  "pressure": "1007.8 mb",
+  "sky": "scattered clouds at 1900 feet; broken clouds at 2400 feet; overcast at 4900 feet",
   "precipitation": null,
-  "local_time": "2022-10-22 19:53:00-07:00"
+  "local_time": "2022-10-22 20:53:00-07:00"
 }
