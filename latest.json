@@ -1,11 +1,11 @@
 {
   "temperature": "54.0 F",
-  "dewpoint": "48.9 F",
-  "wind": "calm",
+  "dewpoint": "46.9 F",
+  "wind": "SW at 3 knots",
   "visibility": "10 miles",
   "runway": null,
-  "pressure": "1013.5 mb",
-  "sky": "a few clouds at 900 feet; scattered clouds at 6000 feet; broken clouds at 11000 feet",
-  "precipitation": null,
-  "local_time": "2022-11-09 01:53:00-08:00"
+  "pressure": "1014.6 mb",
+  "sky": "a few clouds at 900 feet; scattered clouds at 3500 feet; scattered clouds at 6000 feet; broken clouds at 14000 feet",
+  "precipitation": "0.00in",
+  "local_time": "2022-11-09 03:53:00-08:00"
 }
