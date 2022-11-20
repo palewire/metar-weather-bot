@@ -1,11 +1,11 @@
 {
-  "temperature": "62.1 F",
-  "dewpoint": "12.9 F",
-  "wind": "NNE at 6 knots",
+  "temperature": "57.0 F",
+  "dewpoint": "15.1 F",
+  "wind": "NE at 8 knots",
   "visibility": "10 miles",
   "runway": null,
-  "pressure": "1020.7 mb",
+  "pressure": "1020.3 mb",
   "sky": "clear",
   "precipitation": null,
-  "local_time": "2022-11-19 23:53:00-08:00"
+  "local_time": "2022-11-20 01:53:00-08:00"
 }
