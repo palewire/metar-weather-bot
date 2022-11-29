@@ -1,11 +1,11 @@
 {
   "temperature": "59.0 F",
-  "dewpoint": "51.1 F",
-  "wind": "SW at 5 knots",
+  "dewpoint": "52.0 F",
+  "wind": "W at 4 knots",
   "visibility": "10 miles",
   "runway": null,
   "pressure": "1012.2 mb",
-  "sky": "a few clouds at 2300 feet; scattered clouds at 4200 feet; scattered clouds at 5000 feet",
+  "sky": "broken clouds at 1800 feet; broken clouds at 2600 feet; overcast at 3200 feet",
   "precipitation": null,
-  "local_time": "2022-11-28 17:53:00-08:00"
+  "local_time": "2022-11-28 19:53:00-08:00"
 }
