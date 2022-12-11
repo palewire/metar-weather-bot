@@ -1,11 +1,11 @@
 {
   "temperature": "59.0 F",
   "dewpoint": "52.0 F",
-  "wind": "SE at 5 knots",
-  "visibility": "10 miles",
+  "wind": "SSE at 7 knots",
+  "visibility": "7 miles",
   "runway": null,
-  "pressure": "1018.0 mb",
-  "sky": "scattered clouds at 3900 feet; broken clouds at 5000 feet; broken clouds at 7500 feet",
-  "precipitation": null,
-  "local_time": "2022-12-10 21:53:00-08:00"
+  "pressure": "1016.9 mb",
+  "sky": "a few clouds at 2800 feet; broken clouds at 3300 feet; overcast at 5500 feet",
+  "precipitation": "0.00in",
+  "local_time": "2022-12-10 23:53:00-08:00"
 }
