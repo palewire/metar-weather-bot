@@ -7,6 +7,7 @@ import click
 import pytz
 import requests
 import twitter
+from mastodon import Mastodon
 from metar import Metar
 from retry import retry
 from rich import print
@@ -19,10 +20,8 @@ def cli():
 
 
 @cli.command()
-def tweet():
-    """Post a tweet to @LAXWeatherReport."""
-    print("🐦 Posting to @LAXWeatherReport on Twitter")
-
+def post():
+    """Post a tweet to @LAXWeatherBot on Twitter and @LAXWeather on Mastodon."""
     # Read in data
     metar = json.load(open("./latest.json"))
     aqi = json.load(open("./aqi.json"))
@@ -85,13 +84,19 @@ def tweet():
     message += "\n#CAwx"
 
     # Post the message
+    print("🐦 Posting to @LAXWeatherBot on Twitter")
     print(f"Tweet is {len(message)} characters long.")
-    api = get_twitter_client()
+    tw = get_twitter_client()
     io = open("latest.jpg", "rb")
-    media_id = api.UploadMediaSimple(io)
+    media_id = tw.UploadMediaSimple(io)
     alt_text = "A screen capture from the @ABC7 web camera at LAX airport"
-    api.PostMediaMetadata(media_id, alt_text)
-    api.PostUpdate(message, media=[media_id])
+    tw.PostMediaMetadata(media_id, alt_text)
+    tw.PostUpdate(message, media=[media_id])
+
+    print("🐘 Posting to @LAXWeather on Mastodon")
+    masto = get_mastodon_client()
+    media_obj = masto.media_post("./latest.jpg", description=alt_text)
+    masto.status_post(message, media_ids=media_obj['id'])
 
 
 def _clean_wind(s):
@@ -206,6 +211,16 @@ def get_twitter_client():
         consumer_secret=os.getenv("TWITTER_CONSUMER_SECRET"),
         access_token_key=os.getenv("TWITTER_ACCESS_TOKEN_KEY"),
         access_token_secret=os.getenv("TWITTER_ACCESS_TOKEN_SECRET"),
+    )
+
+
+def get_mastodon_client():
+    """Return a Mastodon client ready to post to the API."""
+    return Mastodon(
+        client_id=os.getenv("MASTODON_CLIENT_KEY"),
+        client_secret=os.getenv("MASTODON_CLIENT_SECRET"),
+        access_token=os.getenv("MASTODON_ACCESS_TOKEN"),
+        api_base_url="https://mastodon.palewi.re",
     )
 
 

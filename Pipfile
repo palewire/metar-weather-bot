@@ -11,6 +11,7 @@ pytz = "*"
 requests = "*"
 retry = "*"
 rich = "*"
+"mastodon.py" = "*"
 
 [dev-packages]
 pre-commit = "*"
