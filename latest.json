@@ -1,11 +1,11 @@
 {
-  "temperature": "57.9 F",
-  "dewpoint": "51.1 F",
-  "wind": "ESE at 6 knots",
+  "temperature": "57.0 F",
+  "dewpoint": "52.0 F",
+  "wind": "SE at 4 knots",
   "visibility": "10 miles",
   "runway": null,
   "pressure": "1018.3 mb",
   "sky": "a few clouds at 1500 feet; overcast at 2200 feet",
   "precipitation": null,
-  "local_time": "2022-12-29 23:53:00-08:00"
+  "local_time": "2022-12-30 01:53:00-08:00"
 }
