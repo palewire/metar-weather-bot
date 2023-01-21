@@ -1,11 +1,11 @@
 {
-  "temperature": "54.0 F",
-  "dewpoint": "44.1 F",
-  "wind": "calm",
+  "temperature": "52.0 F",
+  "dewpoint": "45.0 F",
+  "wind": "NNE at 4 knots",
   "visibility": "10 miles",
   "runway": null,
-  "pressure": "1024.4 mb",
+  "pressure": "1025.1 mb",
   "sky": "clear",
   "precipitation": null,
-  "local_time": "2023-01-20 19:53:00-08:00"
+  "local_time": "2023-01-20 21:53:00-08:00"
 }
