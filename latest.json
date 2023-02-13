@@ -1,11 +1,11 @@
 {
-  "temperature": "50.0 F",
-  "dewpoint": "44.1 F",
-  "wind": "ENE at 3 knots",
+  "temperature": "53.1 F",
+  "dewpoint": "45.0 F",
+  "wind": "NE at 6 knots",
   "visibility": "10 miles",
   "runway": null,
-  "pressure": "1012.9 mb",
-  "sky": "a few clouds at 1000 feet; broken clouds at 1200 feet; broken clouds at 3500 feet",
+  "pressure": "1014.6 mb",
+  "sky": "scattered clouds at 1900 feet; scattered clouds at 2500 feet; broken clouds at 3500 feet",
   "precipitation": null,
-  "local_time": "2023-02-13 05:53:00-08:00"
+  "local_time": "2023-02-13 07:53:00-08:00"
 }
