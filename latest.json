@@ -1,11 +1,11 @@
 {
-  "temperature": "52.0 F",
+  "temperature": "53.1 F",
   "dewpoint": "48.9 F",
-  "wind": "S at 7 knots",
-  "visibility": "10 miles",
+  "wind": "SW at 16 knots, gusting to 21 knots",
+  "visibility": "9 miles",
   "runway": null,
-  "pressure": "1013.5 mb",
-  "sky": "scattered clouds at 1200 feet; broken clouds at 6000 feet; overcast at 8500 feet",
-  "precipitation": "0.01in",
-  "local_time": "2023-02-28 21:53:00-08:00"
+  "pressure": "1012.2 mb",
+  "sky": "a few clouds at 800 feet; scattered clouds at 1200 feet; overcast at 2600 feet",
+  "precipitation": "0.00in",
+  "local_time": "2023-02-28 23:53:00-08:00"
 }
