@@ -1,11 +1,11 @@
 {
-  "temperature": "57.0 F",
+  "temperature": "59.0 F",
   "dewpoint": "54.0 F",
-  "wind": "W at 10 knots",
+  "wind": "WSW at 10 knots",
   "visibility": "10 miles",
   "runway": null,
   "pressure": "1013.9 mb",
-  "sky": "scattered clouds at 900 feet; broken clouds at 1300 feet; overcast at 3300 feet",
+  "sky": "a few clouds at 900 feet; scattered clouds at 1200 feet; broken clouds at 3300 feet",
   "precipitation": null,
-  "local_time": "2023-03-20 09:00:00-07:00"
+  "local_time": "2023-03-20 11:01:00-07:00"
 }
