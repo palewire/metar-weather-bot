@@ -1,11 +1,11 @@
 {
-  "temperature": "60.1 F",
+  "temperature": "63.0 F",
   "dewpoint": "53.1 F",
-  "wind": "SSW at 5 knots",
+  "wind": "W at 7 knots",
   "visibility": "10 miles",
   "runway": null,
-  "pressure": "1015.6 mb",
-  "sky": "scattered clouds at 2200 feet; broken clouds at 2900 feet; overcast at 3900 feet",
+  "pressure": "1015.9 mb",
+  "sky": "broken clouds at 2800 feet; overcast at 4300 feet",
   "precipitation": null,
-  "local_time": "2023-06-07 08:53:00-07:00"
+  "local_time": "2023-06-07 10:53:00-07:00"
 }
