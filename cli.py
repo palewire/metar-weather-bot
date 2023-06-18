@@ -89,7 +89,7 @@ def post():
     # tw = get_twitter_client()
     # io = open("latest.jpg", "rb")
     # media_id = tw.UploadMediaSimple(io)
-    # alt_text = "A screen capture from the @ABC7 web camera at LAX airport"
+    alt_text = "A screen capture from the @ABC7 web camera at LAX airport"
     # tw.PostMediaMetadata(media_id, alt_text)
     # tw.PostUpdate(message, media=[media_id])
 
