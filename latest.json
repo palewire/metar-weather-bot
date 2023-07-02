@@ -1,11 +1,11 @@
 {
   "temperature": "61.0 F",
-  "dewpoint": "57.9 F",
-  "wind": "calm",
+  "dewpoint": "59.0 F",
+  "wind": "W at 7 knots",
   "visibility": "5 miles",
   "runway": null,
-  "pressure": "1012.5 mb",
-  "sky": "scattered clouds at 700 feet",
+  "pressure": "1011.9 mb",
+  "sky": "scattered clouds at 500 feet",
   "precipitation": null,
-  "local_time": "2023-07-02 02:53:00-07:00"
+  "local_time": "2023-07-02 04:53:00-07:00"
 }
