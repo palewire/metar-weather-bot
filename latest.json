@@ -1,11 +1,11 @@
 {
-  "temperature": "66.9 F",
-  "dewpoint": "63.0 F",
+  "temperature": "66.0 F",
+  "dewpoint": "62.1 F",
   "wind": "calm",
   "visibility": "9 miles",
   "runway": null,
-  "pressure": "1016.9 mb",
-  "sky": "a few clouds at 800 feet; a few clouds at 1100 feet",
+  "pressure": "1016.3 mb",
+  "sky": "a few clouds at 800 feet; a few clouds at 1200 feet",
   "precipitation": null,
-  "local_time": "2023-08-08 00:53:00-07:00"
+  "local_time": "2023-08-08 02:53:00-07:00"
 }
