@@ -1,11 +1,11 @@
 {
-  "temperature": "64.9 F",
-  "dewpoint": "64.9 F",
-  "wind": "calm",
-  "visibility": "1 miles",
-  "runway": "on runway 25L, greater than 6000 meters",
-  "pressure": "1013.9 mb",
-  "sky": "indefinite ceilingclouds, visibility to 200 feet",
+  "temperature": "66.0 F",
+  "dewpoint": "64.0 F",
+  "wind": "WSW at 3 knots",
+  "visibility": "2 miles",
+  "runway": null,
+  "pressure": "1014.9 mb",
+  "sky": "scattered clouds at 200 feet; overcast at 700 feet",
   "precipitation": null,
-  "local_time": "2023-08-15 04:53:00-07:00"
+  "local_time": "2023-08-15 06:53:00-07:00"
 }
