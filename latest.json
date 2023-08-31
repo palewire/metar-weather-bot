@@ -1,11 +1,11 @@
 {
-  "temperature": "68.0 F",
+  "temperature": "66.0 F",
   "dewpoint": "66.0 F",
   "wind": "calm",
-  "visibility": "2 miles",
-  "runway": null,
-  "pressure": "1009.8 mb",
-  "sky": "a few clouds at 0 feet; a few clouds at 200 feet; scattered clouds at 500 feet",
+  "visibility": "1/4 miles",
+  "runway": "on runway 25L, from 4000 to greater than 6000 meters",
+  "pressure": "1009.1 mb",
+  "sky": "indefinite ceilingclouds, visibility to 200 feet",
   "precipitation": null,
-  "local_time": "2023-08-31 00:53:00-07:00"
+  "local_time": "2023-08-31 02:53:00-07:00"
 }
