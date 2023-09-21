@@ -1,37 +1,37 @@
 [
   {
-    "DateObserved": "2023-09-21 ",
-    "HourObserved": 9,
+    "DateObserved": "2023-09-21",
+    "HourObserved": 11,
     "LocalTimeZone": "PST",
     "ReportingArea": "SW Coastal LA",
     "StateCode": "CA",
     "Latitude": 33.9541,
     "Longitude": -118.4302,
     "ParameterName": "O3",
-    "AQI": 31,
+    "AQI": 35,
     "Category": {
       "Number": 1,
       "Name": "Good"
     }
   },
   {
-    "DateObserved": "2023-09-21 ",
-    "HourObserved": 9,
+    "DateObserved": "2023-09-21",
+    "HourObserved": 11,
     "LocalTimeZone": "PST",
     "ReportingArea": "SW Coastal LA",
     "StateCode": "CA",
     "Latitude": 33.9541,
     "Longitude": -118.4302,
     "ParameterName": "PM2.5",
-    "AQI": 63,
+    "AQI": 60,
     "Category": {
       "Number": 2,
       "Name": "Moderate"
     }
   },
   {
-    "DateObserved": "2023-09-21 ",
-    "HourObserved": 9,
+    "DateObserved": "2023-09-21",
+    "HourObserved": 11,
     "LocalTimeZone": "PST",
     "ReportingArea": "SW Coastal LA",
     "StateCode": "CA",
