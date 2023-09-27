@@ -1,11 +1,11 @@
 {
-  "temperature": "66.9 F",
-  "dewpoint": "61.0 F",
-  "wind": "SW at 4 knots",
+  "temperature": "64.9 F",
+  "dewpoint": "60.1 F",
+  "wind": "ESE at 4 knots",
   "visibility": "10 miles",
   "runway": null,
-  "pressure": "1013.5 mb",
-  "sky": "clear",
+  "pressure": "1014.2 mb",
+  "sky": "a few clouds at 28000 feet",
   "precipitation": null,
-  "local_time": "2023-09-26 20:53:00-07:00"
+  "local_time": "2023-09-26 22:53:00-07:00"
 }
