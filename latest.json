@@ -2,10 +2,10 @@
   "temperature": "64.9 F",
   "dewpoint": "63.0 F",
   "wind": "ENE at 4 knots",
-  "visibility": "7 miles",
+  "visibility": "9 miles",
   "runway": null,
   "pressure": "1011.5 mb",
-  "sky": "a few clouds at 500 feet; broken clouds at 700 feet",
+  "sky": "broken clouds at 800 feet; overcast at 1100 feet",
   "precipitation": null,
-  "local_time": "2023-09-28 02:53:00-07:00"
+  "local_time": "2023-09-28 04:53:00-07:00"
 }
