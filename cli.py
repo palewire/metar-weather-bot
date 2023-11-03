@@ -28,58 +28,38 @@ def post():
 
     # Format the metar message
     dt = datetime.strptime(metar["local_time"], "%Y-%m-%d %H:%M:%S%z")
-    message = f"LAX at {dt.strftime('%-I:%M %p')}\n\n"
+    message = f"LAX at {dt:%I:%M %p}\n\n"
 
-    if metar["temperature"]:
-        message += f"🌡️ {metar['temperature']}\n"
+    mapping: dict[str, str] = {
+        "temperature": f"🌡️ {metar['temperature']}\n",
+        "dewpoint": f"🌫️ {metar['dewpoint']} dew point\n",
+        "wind": f"🌬️ {_clean_wind(metar['wind'])}\n",
+        "visibility": f"🔭 {metar['visibility']} visibility\n",
+        "sky": f"☁️ {metar['sky'].capitalize()}\n",
+        "pressure": f"⏱️ {metar['pressure']} air pressure\n",
+    }
 
-    if metar["dewpoint"]:
-        message += f"🌫️ {metar['dewpoint']} dew point\n"
-
-    if metar["wind"]:
-        message += f"🌬️ {_clean_wind(metar['wind'])}\n"
-
-    if metar["visibility"]:
-        message += f"🔭 {metar['visibility']} visibility\n"
-
-    if metar["sky"]:
-        message += f"☁️ {metar['sky'].capitalize()}\n"
-
-    if metar["pressure"]:
-        message += f"⏱️ {metar['pressure']} air pressure\n"
+    for i in mapping.keys():
+        if metar[i]:
+            message += mapping[i]
 
     if metar["precipitation"]:
         s = metar["precipitation"].capitalize()
-        if "thunder" in s:
-            message += f"⛈️ {s}\n"
-        elif "drizzle" in s or "rain" in s:
-            message += f"🌧️ {s}\n"
-        elif "snow" in s or "ice" in s:
-            message += f"🌨️ {s}\n"
-        else:
-            message += f"🌧️ {s}\n"
+        message += f"{'⛈️' if "thunder" in s else '🌧️'} {s}\n"
 
     # Add EPA air quality data
     try:
         pm25 = next(d for d in aqi if d["ParameterName"] == "PM2.5")
-    except:
+    except Exception:
         print("EPA data retrieval failed")
         pm25 = None
+
     if pm25 and len(message) < 250:
         category = pm25["Category"]["Number"]
-        if category == 1:
-            message += f"🟩 {pm25['AQI']} AQI\n"
-        elif category == 2:
-            message += f"🟨 {pm25['AQI']} AQI\n"
-        elif category == 3:
-            message += f"🟧 {pm25['AQI']} AQI\n"
-        elif category == 4:
-            message += f"🟥 {pm25['AQI']} AQI\n"
-        elif category == 5:
-            message += f"🟪 {pm25['AQI']} AQI\n"
-        elif category == 6:
-            message += f"🟫 {pm25['AQI']} AQI\n"
 
+        map = {1: "🟩", 2: "🟨", 3: "🟧", 4: "🟥", 5: "🟪", 6: "🟫"}
+        message += f"{map[category]} {pm25['AQI']} AQI\n"
+    
     # Tack on some hashtags
     message += "\n#CAwx"
 
@@ -154,26 +134,21 @@ def metar():
     # Parse out the report
     obs = Metar.Metar(r.text.split("\n")[1])
 
-    d = {}
+    d = {
+        "temperature": obs.temp.string("F"),
+        "dewpoint": obs.dewpt.string("F"),
+        "wind": obs.wind(),
+        "visibility": obs.visibility(),
+        "pressure": obs.press.string("mb"),
+        "sky": obs.sky_conditions(),
+        "local_time": str(local_time),
+    }
 
-    d["temperature"] = obs.temp.string("F")
-    d["dewpoint"] = obs.dewpt.string("F")
-    d["wind"] = obs.wind()
-    d["visibility"] = obs.visibility()
-    if obs.runway:
-        d["runway"] = obs.runway_visual_range()
-    else:
-        d["runway"] = None
-    d["pressure"] = obs.press.string("mb")
-    d["sky"] = obs.sky_conditions()
-    if obs.precip_1hr:
-        d["precipitation"] = obs.precip_1hr.string("in")
-    else:
-        d["precipitation"] = None
+    d["runway"] = obs.runway_visual_range() if obs.runway else None
+    d"precipitation"] = obs.precip_1hr.string("in") if obs.precip_1hr else None
 
     local_tz = pytz.timezone("America/Los_Angeles")
     local_time = obs.time.replace(tzinfo=pytz.utc).astimezone(local_tz)
-    d["local_time"] = str(local_time)
 
     # Write it out
     json.dump(d, open("./latest.json", "w"), indent=2)
