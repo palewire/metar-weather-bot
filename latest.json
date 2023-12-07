@@ -1,11 +1,11 @@
 {
-  "temperature": "60.1 F",
+  "temperature": "59.0 F",
   "dewpoint": "55.9 F",
-  "wind": "WSW at 11 knots",
+  "wind": "SE at 7 knots",
   "visibility": "10 miles",
   "runway": null,
   "pressure": "1018.3 mb",
   "sky": "a few clouds at 1000 feet",
   "precipitation": null,
-  "local_time": "2023-12-06 19:53:00-08:00"
+  "local_time": "2023-12-06 21:53:00-08:00"
 }
