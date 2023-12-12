@@ -1,11 +1,11 @@
 {
-  "temperature": "52.0 F",
-  "dewpoint": "50.0 F",
-  "wind": "E at 6 knots",
-  "visibility": "10 miles",
-  "runway": null,
-  "pressure": "1012.5 mb",
-  "sky": "a few clouds at 700 feet; scattered clouds at 20000 feet; broken clouds at 25000 feet",
+  "temperature": "55.0 F",
+  "dewpoint": "55.0 F",
+  "wind": "ENE at 6 knots",
+  "visibility": "1/4 miles",
+  "runway": "on runway 25L, from 4500 to greater than 6000 meters",
+  "pressure": "1011.9 mb",
+  "sky": "indefinite ceilingclouds, visibility to 200 feet",
   "precipitation": null,
-  "local_time": "2023-12-11 23:53:00-08:00"
+  "local_time": "2023-12-12 01:53:00-08:00"
 }
