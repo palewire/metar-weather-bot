@@ -1,11 +1,11 @@
 {
-  "temperature": "51.1 F",
-  "dewpoint": "28.0 F",
-  "wind": "NNW at 12 knots, gusting to 24 knots",
+  "temperature": "54.0 F",
+  "dewpoint": "28.9 F",
+  "wind": "NNW at 18 knots, gusting to 28 knots",
   "visibility": "10 miles",
   "runway": null,
-  "pressure": "1014.9 mb",
-  "sky": "a few clouds at 3200 feet; a few clouds at 4800 feet; scattered clouds at 7000 feet; scattered clouds at 13000 feet",
+  "pressure": "1015.6 mb",
+  "sky": "a few clouds at 5000 feet; a few clouds at 7500 feet; scattered clouds at 22000 feet",
   "precipitation": null,
-  "local_time": "2024-01-07 07:53:00-08:00"
+  "local_time": "2024-01-07 09:53:00-08:00"
 }
