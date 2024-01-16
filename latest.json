@@ -2,10 +2,10 @@
   "temperature": "54.0 F",
   "dewpoint": "52.0 F",
   "wind": "calm",
-  "visibility": "7 miles",
+  "visibility": "6 miles",
   "runway": null,
   "pressure": "1018.6 mb",
-  "sky": "broken clouds at 20000 feet",
+  "sky": "a few clouds at 600 feet; scattered clouds at 20000 feet; broken clouds at 25000 feet",
   "precipitation": null,
-  "local_time": "2024-01-15 21:53:00-08:00"
+  "local_time": "2024-01-15 23:53:00-08:00"
 }
