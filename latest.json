@@ -1,11 +1,11 @@
 {
-  "temperature": "54.0 F",
-  "dewpoint": "54.0 F",
-  "wind": "ENE at 3 knots",
-  "visibility": "1/4 miles",
-  "runway": "on runway 25L, from 2000 to 4500 meters",
+  "temperature": "53.1 F",
+  "dewpoint": "53.1 F",
+  "wind": "calm",
+  "visibility": "1/8 miles",
+  "runway": "on runway 25L, from 1000 to 1600 meters",
   "pressure": "1010.2 mb",
-  "sky": "indefinite ceilingclouds, visibility to 200 feet",
+  "sky": "broken clouds at 100 feet; broken clouds at 300 feet; broken clouds at 15000 feet",
   "precipitation": null,
-  "local_time": "2024-01-23 01:53:00-08:00"
+  "local_time": "2024-01-23 03:53:00-08:00"
 }
