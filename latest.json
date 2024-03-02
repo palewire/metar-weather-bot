@@ -1,11 +1,11 @@
 {
-  "temperature": "57.9 F",
+  "temperature": "59.0 F",
   "dewpoint": "53.1 F",
-  "wind": "SW at 9 knots",
+  "wind": "WSW at 15 knots",
   "visibility": "10 miles",
   "runway": null,
-  "pressure": "1016.6 mb",
-  "sky": "scattered clouds at 1500 feet; scattered clouds at 1900 feet; broken clouds at 2800 feet",
-  "precipitation": null,
-  "local_time": "2024-03-02 07:53:00-08:00"
+  "pressure": "1017.3 mb",
+  "sky": "scattered clouds at 1300 feet; broken clouds at 2800 feet; overcast at 4800 feet",
+  "precipitation": "0.01in",
+  "local_time": "2024-03-02 09:53:00-08:00"
 }
