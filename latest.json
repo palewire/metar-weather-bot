@@ -1,11 +1,11 @@
 {
-  "temperature": "57.0 F",
-  "dewpoint": "52.0 F",
-  "wind": "calm",
+  "temperature": "54.0 F",
+  "dewpoint": "50.0 F",
+  "wind": "variable at 3 knots",
   "visibility": "10 miles",
   "runway": null,
-  "pressure": "1020.0 mb",
-  "sky": "scattered clouds at 28000 feet",
+  "pressure": "1019.6 mb",
+  "sky": "scattered clouds at 30000 feet",
   "precipitation": null,
-  "local_time": "2024-03-09 21:53:00-08:00"
+  "local_time": "2024-03-09 23:53:00-08:00"
 }
