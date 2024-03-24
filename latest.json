@@ -1,11 +1,11 @@
 {
-  "temperature": "57.0 F",
-  "dewpoint": "45.0 F",
-  "wind": "W at 25 knots, gusting to 31 knots",
+  "temperature": "55.0 F",
+  "dewpoint": "46.0 F",
+  "wind": "W at 26 knots, gusting to 33 knots",
   "visibility": "10 miles",
   "runway": null,
   "pressure": "1009.5 mb",
-  "sky": "a few clouds at 2000 feet; scattered clouds at 3100 feet; scattered clouds at 20000 feet",
+  "sky": "a few clouds at 1500 feet; scattered clouds at 3500 feet; scattered clouds at 6000 feet",
   "precipitation": null,
-  "local_time": "2024-03-23 18:53:00-07:00"
+  "local_time": "2024-03-23 20:53:00-07:00"
 }
