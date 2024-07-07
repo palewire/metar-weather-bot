@@ -1,11 +1,11 @@
 {
-  "temperature": "66.9 F",
+  "temperature": "72.0 F",
   "dewpoint": "63.0 F",
-  "wind": "SE at 3 knots",
-  "visibility": "4 miles",
+  "wind": "calm",
+  "visibility": "7 miles",
   "runway": null,
-  "pressure": "1013.2 mb",
-  "sky": "a few clouds at 600 feet; overcast at 900 feet",
+  "pressure": "1013.9 mb",
+  "sky": "scattered clouds at 1100 feet; broken clouds at 1500 feet",
   "precipitation": null,
-  "local_time": "2024-07-07 06:53:00-07:00"
+  "local_time": "2024-07-07 08:53:00-07:00"
 }
