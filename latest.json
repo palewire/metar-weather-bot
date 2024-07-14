@@ -1,11 +1,11 @@
 {
   "temperature": "64.9 F",
-  "dewpoint": "62.1 F",
-  "wind": "WSW at 7 knots",
+  "dewpoint": "63.0 F",
+  "wind": "WSW at 5 knots",
   "visibility": "10 miles",
   "runway": null,
   "pressure": "1015.6 mb",
-  "sky": "a few clouds at 800 feet; a few clouds at 12000 feet",
+  "sky": "a few clouds at 800 feet; scattered clouds at 10000 feet",
   "precipitation": null,
-  "local_time": "2024-07-13 22:53:00-07:00"
+  "local_time": "2024-07-14 00:53:00-07:00"
 }
