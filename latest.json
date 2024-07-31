@@ -1,11 +1,11 @@
 {
   "temperature": "61.0 F",
-  "dewpoint": "59.0 F",
-  "wind": "NW at 4 knots",
-  "visibility": "10 miles",
+  "dewpoint": "57.9 F",
+  "wind": "calm",
+  "visibility": "9 miles",
   "runway": null,
   "pressure": "1012.5 mb",
-  "sky": "broken clouds at 700 feet",
+  "sky": "a few clouds at 400 feet; scattered clouds at 600 feet",
   "precipitation": null,
-  "local_time": "2024-07-31 02:53:00-07:00"
+  "local_time": "2024-07-31 04:53:00-07:00"
 }
