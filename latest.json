@@ -1,5 +1,5 @@
 {
-  "temperature": "73.9 F",
+  "temperature": "73.0 F",
   "dewpoint": "64.9 F",
   "wind": "calm",
   "visibility": "10 miles",
@@ -7,5 +7,5 @@
   "pressure": "1008.5 mb",
   "sky": "clear",
   "precipitation": null,
-  "local_time": "2024-09-09 02:53:00-07:00"
+  "local_time": "2024-09-09 04:53:00-07:00"
 }
