@@ -1,11 +1,11 @@
 {
   "temperature": "61.0 F",
   "dewpoint": "60.1 F",
-  "wind": "W at 3 knots",
-  "visibility": "3/4 miles",
-  "runway": "on runway 25L, greater than 6000 meters",
+  "wind": "W at 6 knots",
+  "visibility": "1/4 miles",
+  "runway": "on runway 25L, from 6000 to greater than 6000 meters",
   "pressure": "1011.5 mb",
   "sky": "indefinite ceilingclouds, visibility to 200 feet",
   "precipitation": null,
-  "local_time": "2024-09-22 22:53:00-07:00"
+  "local_time": "2024-09-23 01:03:00-07:00"
 }
