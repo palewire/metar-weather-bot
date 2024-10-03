@@ -1,11 +1,11 @@
 {
-  "temperature": "64.9 F",
-  "dewpoint": "61.0 F",
-  "wind": "W at 9 knots",
-  "visibility": "4 miles",
-  "runway": null,
-  "pressure": "1007.1 mb",
-  "sky": "overcast at 500 feet",
+  "temperature": "63.0 F",
+  "dewpoint": "62.1 F",
+  "wind": "W at 7 knots",
+  "visibility": "1/4 miles",
+  "runway": "on runway 25L, from 4500 to greater than 6000 meters",
+  "pressure": "1006.8 mb",
+  "sky": "indefinite ceilingclouds, visibility to 200 feet",
   "precipitation": null,
-  "local_time": "2024-10-02 17:11:00-07:00"
+  "local_time": "2024-10-02 18:53:00-07:00"
 }
