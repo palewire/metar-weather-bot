@@ -3,9 +3,9 @@
   "dewpoint": "61.0 F",
   "wind": "calm",
   "visibility": "1/2 miles",
-  "runway": "on runway 25L, from 1800 to 5500 meters",
-  "pressure": "1014.2 mb",
-  "sky": "indefinite ceilingclouds, visibility to 200 feet",
+  "runway": "on runway 25L, greater than 6000 meters",
+  "pressure": "1014.9 mb",
+  "sky": "overcast at 200 feet",
   "precipitation": null,
-  "local_time": "2024-10-06 04:53:00-07:00"
+  "local_time": "2024-10-06 06:53:00-07:00"
 }
