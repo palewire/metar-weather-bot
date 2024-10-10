@@ -1,11 +1,11 @@
 {
   "temperature": "70.0 F",
   "dewpoint": "60.1 F",
-  "wind": "SW to WNW at 8 knots",
+  "wind": "W at 9 knots, gusting to 16 knots",
   "visibility": "4 miles",
   "runway": null,
-  "pressure": "1016.6 mb",
-  "sky": "a few clouds at 1200 feet; a few clouds at 16000 feet",
+  "pressure": "1015.6 mb",
+  "sky": "a few clouds at 1000 feet",
   "precipitation": null,
-  "local_time": "2024-10-10 11:53:00-07:00"
+  "local_time": "2024-10-10 13:53:00-07:00"
 }
