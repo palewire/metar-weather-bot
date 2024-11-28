@@ -1,11 +1,11 @@
 {
   "temperature": "55.9 F",
-  "dewpoint": "55.9 F",
-  "wind": "calm",
-  "visibility": "1 1/2 miles",
-  "runway": "on runway 25L, from 6000 to greater than 6000 meters",
-  "pressure": "1017.6 mb",
-  "sky": "overcast at 200 feet",
+  "dewpoint": "54.0 F",
+  "wind": "ENE at 3 knots",
+  "visibility": "2 miles",
+  "runway": null,
+  "pressure": "1016.6 mb",
+  "sky": "broken clouds at 200 feet",
   "precipitation": null,
-  "local_time": "2024-11-28 01:59:00-08:00"
+  "local_time": "2024-11-28 03:53:00-08:00"
 }
