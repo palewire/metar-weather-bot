@@ -1,11 +1,11 @@
 {
-  "temperature": "62.1 F",
-  "dewpoint": "46.9 F",
-  "wind": "variable at 3 knots",
+  "temperature": "60.1 F",
+  "dewpoint": "48.0 F",
+  "wind": "W at 6 knots",
   "visibility": "10 miles",
   "runway": null,
   "pressure": "1021.3 mb",
-  "sky": "broken clouds at 4100 feet; broken clouds at 15000 feet",
+  "sky": "scattered clouds at 2700 feet; broken clouds at 7000 feet; broken clouds at 15000 feet",
   "precipitation": null,
-  "local_time": "2024-12-14 13:53:00-08:00"
+  "local_time": "2024-12-14 15:53:00-08:00"
 }
