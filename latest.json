@@ -1,11 +1,11 @@
 {
-  "temperature": "62.1 F",
-  "dewpoint": "52.0 F",
-  "wind": "SSW at 5 knots",
-  "visibility": "5 miles",
+  "temperature": "60.1 F",
+  "dewpoint": "53.1 F",
+  "wind": "W at 9 knots",
+  "visibility": "10 miles",
   "runway": null,
-  "pressure": "1019.6 mb",
-  "sky": "a few clouds at 18000 feet; scattered clouds at 20000 feet; overcast at 23000 feet",
+  "pressure": "1018.3 mb",
+  "sky": "scattered clouds at 18000 feet; broken clouds at 21000 feet; overcast at 24000 feet",
   "precipitation": null,
-  "local_time": "2024-12-22 11:53:00-08:00"
+  "local_time": "2024-12-22 13:53:00-08:00"
 }
