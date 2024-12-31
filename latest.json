@@ -1,11 +1,11 @@
 {
-  "temperature": "50.0 F",
-  "dewpoint": "46.0 F",
-  "wind": "calm",
-  "visibility": "3/4 miles",
-  "runway": "on runway 25L, from 1600 to 5000 meters",
-  "pressure": "1016.9 mb",
-  "sky": "a few clouds at 100 feet; scattered clouds at 400 feet",
+  "temperature": "51.1 F",
+  "dewpoint": "43.0 F",
+  "wind": "ENE at 3 knots",
+  "visibility": "1/16 miles",
+  "runway": "on runway 25L, from 1800 to 4000 meters",
+  "pressure": "1016.6 mb",
+  "sky": "indefinite ceilingclouds, visibility to 100 feet",
   "precipitation": null,
-  "local_time": "2024-12-31 01:53:00-08:00"
+  "local_time": "2024-12-31 03:53:00-08:00"
 }
