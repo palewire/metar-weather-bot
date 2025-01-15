@@ -1,11 +1,11 @@
 {
-  "temperature": "71.1 F",
-  "dewpoint": "35.1 F",
-  "wind": "SSW at 8 knots",
+  "temperature": "70.0 F",
+  "dewpoint": "34.0 F",
+  "wind": "WNW at 9 knots",
   "visibility": "10 miles",
   "runway": null,
-  "pressure": "1022.4 mb",
+  "pressure": "1021.0 mb",
   "sky": "clear",
   "precipitation": null,
-  "local_time": "2025-01-15 11:53:00-08:00"
+  "local_time": "2025-01-15 13:53:00-08:00"
 }
