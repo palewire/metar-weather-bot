@@ -1,11 +1,11 @@
 {
-  "temperature": "60.1 F",
-  "dewpoint": "48.0 F",
-  "wind": "SE at 11 knots, gusting to 20 knots",
+  "temperature": "59.0 F",
+  "dewpoint": "45.0 F",
+  "wind": "SW at 12 knots, gusting to 19 knots",
   "visibility": "10 miles",
   "runway": null,
-  "pressure": "1012.2 mb",
-  "sky": "a few clouds at 2000 feet; broken clouds at 2900 feet; broken clouds at 3600 feet",
+  "pressure": "1011.5 mb",
+  "sky": "a few clouds at 2000 feet; broken clouds at 2600 feet; broken clouds at 4400 feet",
   "precipitation": null,
-  "local_time": "2025-01-25 11:53:00-08:00"
+  "local_time": "2025-01-25 13:53:00-08:00"
 }
