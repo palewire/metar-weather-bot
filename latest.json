@@ -1,11 +1,11 @@
 {
-  "temperature": "50.0 F",
+  "temperature": "55.0 F",
   "dewpoint": "44.1 F",
-  "wind": "NNE at 5 knots",
+  "wind": "SE at 5 knots",
   "visibility": "10 miles",
-  "runway": null,
-  "pressure": "1019.6 mb",
-  "sky": "a few clouds at 1600 feet; a few clouds at 5000 feet; broken clouds at 14000 feet; broken clouds at 18000 feet",
+  "runway": "on runway 25L, from 2600 to greater than 6000 meters",
+  "pressure": "1020.7 mb",
+  "sky": "a few clouds at 1900 feet; a few clouds at 5500 feet; scattered clouds at 14000 feet; broken clouds at 25000 feet",
   "precipitation": null,
-  "local_time": "2025-01-27 07:53:00-08:00"
+  "local_time": "2025-01-27 09:53:00-08:00"
 }
