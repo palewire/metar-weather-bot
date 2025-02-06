@@ -1,11 +1,11 @@
 {
   "temperature": "57.0 F",
   "dewpoint": "55.9 F",
-  "wind": "WSW at 8 knots",
-  "visibility": "3/4 miles",
-  "runway": "on runway 25L, from 5000 to greater than 6000 meters",
-  "pressure": "1018.0 mb",
-  "sky": "broken clouds at 300 feet; overcast at 1000 feet",
-  "precipitation": "0.02in",
-  "local_time": "2025-02-06 07:53:00-08:00"
+  "wind": "WSW at 7 knots",
+  "visibility": "1 1/4 miles",
+  "runway": null,
+  "pressure": "1019.0 mb",
+  "sky": "a few clouds at 200 feet; broken clouds at 400 feet; overcast at 600 feet",
+  "precipitation": null,
+  "local_time": "2025-02-06 09:53:00-08:00"
 }
