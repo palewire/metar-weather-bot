@@ -1,11 +1,11 @@
 {
-  "temperature": "59.0 F",
-  "dewpoint": "57.0 F",
-  "wind": "S at 12 knots, gusting to 19 knots",
-  "visibility": "1 3/4 miles",
-  "runway": "on runway 25L, from 6000 to greater than 6000 meters",
-  "pressure": "1013.2 mb",
-  "sky": "a few clouds at 1000 feet; broken clouds at 1600 feet; overcast at 3300 feet",
-  "precipitation": "0.07in",
-  "local_time": "2025-02-13 16:14:00-08:00"
+  "temperature": "57.9 F",
+  "dewpoint": "55.9 F",
+  "wind": "SW to W at 10 knots, gusting to 18 knots",
+  "visibility": "10 miles",
+  "runway": null,
+  "pressure": "1014.2 mb",
+  "sky": "broken clouds at 800 feet; overcast at 1700 feet",
+  "precipitation": "0.01in",
+  "local_time": "2025-02-13 18:09:00-08:00"
 }
