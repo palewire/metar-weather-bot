@@ -1,11 +1,11 @@
 {
-  "temperature": "60.1 F",
-  "dewpoint": "53.1 F",
-  "wind": "calm",
-  "visibility": "10 miles",
-  "runway": null,
-  "pressure": "1013.2 mb",
-  "sky": "clear",
+  "temperature": "54.0 F",
+  "dewpoint": "54.0 F",
+  "wind": "ESE at 7 knots",
+  "visibility": "1 miles",
+  "runway": "on runway 25L, from 1000 to 1800 meters",
+  "pressure": "1013.5 mb",
+  "sky": "scattered clouds at 100 feet; scattered clouds at 200 feet",
   "precipitation": null,
-  "local_time": "2025-02-25 21:53:00-08:00"
+  "local_time": "2025-02-26 00:01:00-08:00"
 }
