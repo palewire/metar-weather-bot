@@ -1,11 +1,11 @@
 {
-  "temperature": "54.0 F",
-  "dewpoint": "51.1 F",
-  "wind": "E at 4 knots",
-  "visibility": "5 miles",
+  "temperature": "55.0 F",
+  "dewpoint": "53.1 F",
+  "wind": "ENE at 6 knots",
+  "visibility": "10 miles",
   "runway": null,
-  "pressure": "1012.9 mb",
-  "sky": "a few clouds at 2000 feet; broken clouds at 3500 feet; broken clouds at 4500 feet; overcast at 15000 feet",
-  "precipitation": "0.00in",
-  "local_time": "2025-03-12 00:53:00-07:00"
+  "pressure": "1012.5 mb",
+  "sky": "scattered clouds at 2500 feet; broken clouds at 3200 feet; broken clouds at 3900 feet",
+  "precipitation": null,
+  "local_time": "2025-03-12 02:53:00-07:00"
 }
