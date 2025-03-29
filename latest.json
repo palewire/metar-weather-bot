@@ -1,11 +1,11 @@
 {
-  "temperature": "62.1 F",
-  "dewpoint": "51.1 F",
-  "wind": "W at 20 knots",
+  "temperature": "59.0 F",
+  "dewpoint": "50.0 F",
+  "wind": "W at 19 knots",
   "visibility": "10 miles",
   "runway": null,
-  "pressure": "1013.9 mb",
-  "sky": "a few clouds at 1400 feet; scattered clouds at 5500 feet; scattered clouds at 15000 feet",
+  "pressure": "1013.5 mb",
+  "sky": "a few clouds at 1300 feet; scattered clouds at 4500 feet; broken clouds at 15000 feet",
   "precipitation": null,
-  "local_time": "2025-03-28 16:53:00-07:00"
+  "local_time": "2025-03-28 18:53:00-07:00"
 }
