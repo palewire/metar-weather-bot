@@ -1,11 +1,11 @@
 {
-  "temperature": "55.9 F",
+  "temperature": "55.0 F",
   "dewpoint": "54.0 F",
-  "wind": "E at 7 knots",
-  "visibility": "8 miles",
+  "wind": "ENE at 8 knots",
+  "visibility": "3 miles",
   "runway": null,
-  "pressure": "1019.3 mb",
-  "sky": "a few clouds at 600 feet; overcast at 800 feet",
+  "pressure": "1018.3 mb",
+  "sky": "a few clouds at 200 feet; overcast at 500 feet",
   "precipitation": "0.00in",
-  "local_time": "2025-03-31 02:53:00-07:00"
+  "local_time": "2025-03-31 04:53:00-07:00"
 }
