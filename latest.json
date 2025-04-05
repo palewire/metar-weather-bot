@@ -1,11 +1,11 @@
 {
-  "temperature": "62.1 F",
-  "dewpoint": "45.0 F",
-  "wind": "WSW at 16 knots, gusting to 22 knots",
+  "temperature": "63.0 F",
+  "dewpoint": "43.0 F",
+  "wind": "WSW at 14 knots, gusting to 22 knots",
   "visibility": "10 miles",
   "runway": null,
-  "pressure": "1018.3 mb",
-  "sky": "a few clouds at 1000 feet; a few clouds at 2700 feet",
+  "pressure": "1017.6 mb",
+  "sky": "a few clouds at 2700 feet; scattered clouds at 12000 feet",
   "precipitation": null,
-  "local_time": "2025-04-04 14:53:00-07:00"
+  "local_time": "2025-04-04 16:53:00-07:00"
 }
