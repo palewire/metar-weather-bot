@@ -1,5 +1,5 @@
 {
-  "temperature": "54.0 F",
+  "temperature": "52.0 F",
   "dewpoint": "44.1 F",
   "wind": "calm",
   "visibility": "10 miles",
@@ -7,5 +7,5 @@
   "pressure": "1016.3 mb",
   "sky": "a few clouds at 1000 feet; a few clouds at 5500 feet",
   "precipitation": null,
-  "local_time": "2025-04-27 00:53:00-07:00"
+  "local_time": "2025-04-27 02:53:00-07:00"
 }
