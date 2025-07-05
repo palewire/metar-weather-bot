@@ -1,11 +1,11 @@
 {
-  "temperature": "63.0 F",
+  "temperature": "66.9 F",
   "dewpoint": "60.1 F",
-  "wind": "variable at 4 knots",
-  "visibility": "2 miles",
+  "wind": "variable at 3 knots",
+  "visibility": "5 miles",
   "runway": null,
-  "pressure": "1018.3 mb",
-  "sky": "overcast at 800 feet",
+  "pressure": "1018.6 mb",
+  "sky": "scattered clouds at 1300 feet",
   "precipitation": null,
-  "local_time": "2025-07-05 06:53:00-07:00"
+  "local_time": "2025-07-05 09:02:00-07:00"
 }
