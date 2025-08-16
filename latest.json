@@ -1,11 +1,11 @@
 {
-  "temperature": "68.0 F",
+  "temperature": "66.9 F",
   "dewpoint": "60.1 F",
-  "wind": "E at 8 knots",
+  "wind": "E at 9 knots",
   "visibility": "10 miles",
   "runway": null,
-  "pressure": "1015.2 mb",
-  "sky": "overcast at 1800 feet",
+  "pressure": "1016.3 mb",
+  "sky": "overcast at 1600 feet",
   "precipitation": null,
-  "local_time": "2025-08-16 02:53:00-07:00"
+  "local_time": "2025-08-16 05:53:00-07:00"
 }
