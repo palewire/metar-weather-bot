@@ -1,11 +1,11 @@
 {
-  "temperature": "73.0 F",
+  "temperature": "75.0 F",
   "dewpoint": "63.0 F",
-  "wind": "WSW at 9 knots",
+  "wind": "WSW at 10 knots",
   "visibility": "10 miles",
   "runway": null,
-  "pressure": "1015.6 mb",
-  "sky": "a few towering cumulus at 1100 feet; scattered clouds at 2500 feet; broken clouds at 4500 feet",
+  "pressure": "1014.6 mb",
+  "sky": "a few clouds at 1000 feet; a few clouds at 12000 feet; scattered clouds at 16000 feet; scattered clouds at 19000 feet; broken clouds at 27000 feet",
   "precipitation": null,
-  "local_time": "2025-08-26 12:53:00-07:00"
+  "local_time": "2025-08-26 14:53:00-07:00"
 }
