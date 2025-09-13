@@ -1,11 +1,11 @@
 {
-  "temperature": "72.0 F",
+  "temperature": "75.0 F",
   "dewpoint": "62.1 F",
-  "wind": "SW at 8 knots",
-  "visibility": "9 miles",
+  "wind": "WSW at 10 knots",
+  "visibility": "10 miles",
   "runway": null,
-  "pressure": "1013.9 mb",
-  "sky": "scattered clouds at 1800 feet; overcast at 2400 feet",
+  "pressure": "1013.2 mb",
+  "sky": "scattered clouds at 2000 feet; scattered clouds at 3100 feet",
   "precipitation": null,
-  "local_time": "2025-09-13 10:53:00-07:00"
+  "local_time": "2025-09-13 12:53:00-07:00"
 }
