@@ -1,11 +1,11 @@
 {
-  "temperature": "62.1 F",
+  "temperature": "60.1 F",
   "dewpoint": "60.1 F",
-  "wind": "W at 3 knots",
-  "visibility": "6 miles",
-  "runway": null,
+  "wind": "NNE at 3 knots",
+  "visibility": "1/4 miles",
+  "runway": "on runway 25L, from 600 to 800 meters",
   "pressure": "1016.9 mb",
-  "sky": "a few clouds at 200 feet; scattered clouds at 400 feet",
+  "sky": "broken clouds at 0 feet; broken clouds at 400 feet",
   "precipitation": null,
-  "local_time": "2025-10-21 04:53:00-07:00"
+  "local_time": "2025-10-21 06:53:00-07:00"
 }
