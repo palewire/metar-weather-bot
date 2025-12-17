@@ -1,11 +1,11 @@
 {
-  "temperature": "57.9 F",
+  "temperature": "57.0 F",
   "dewpoint": "57.0 F",
-  "wind": "calm",
-  "visibility": "1 miles",
-  "runway": "on runway 25L, greater than 6000 meters",
+  "wind": "variable at 3 knots",
+  "visibility": "1/4 miles",
+  "runway": "on runway 25L, from 3500 to greater than 6000 meters",
   "pressure": "1019.0 mb",
-  "sky": "broken clouds at 200 feet",
+  "sky": "indefinite ceilingclouds, visibility to 200 feet",
   "precipitation": null,
-  "local_time": "2025-12-16 22:03:00-08:00"
+  "local_time": "2025-12-16 23:53:00-08:00"
 }
