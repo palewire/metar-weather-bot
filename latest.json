@@ -2,10 +2,10 @@
   "temperature": "57.0 F",
   "dewpoint": "55.9 F",
   "wind": "calm",
-  "visibility": "1/4 miles",
+  "visibility": "1 miles",
   "runway": "on runway 25L, greater than 6000 meters",
-  "pressure": "1018.0 mb",
-  "sky": "indefinite ceilingclouds, visibility to 200 feet",
+  "pressure": "1018.6 mb",
+  "sky": "overcast at 400 feet",
   "precipitation": null,
-  "local_time": "2025-12-17 05:53:00-08:00"
+  "local_time": "2025-12-17 08:03:00-08:00"
 }
