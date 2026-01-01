@@ -1,11 +1,11 @@
 {
   "temperature": "57.9 F",
   "dewpoint": "55.9 F",
-  "wind": "ENE at 7 knots, gusting to 18 knots",
+  "wind": "E at 9 knots",
   "visibility": "5 miles",
   "runway": null,
-  "pressure": "1016.3 mb",
-  "sky": "broken clouds at 700 feet; overcast at 1100 feet",
-  "precipitation": null,
-  "local_time": "2025-12-31 23:53:00-08:00"
+  "pressure": "1015.6 mb",
+  "sky": "a few clouds at 700 feet; overcast at 900 feet",
+  "precipitation": "0.00in",
+  "local_time": "2026-01-01 01:53:00-08:00"
 }
