@@ -1,11 +1,11 @@
 {
-  "temperature": "59.0 F",
+  "temperature": "57.0 F",
   "dewpoint": "55.9 F",
-  "wind": "S at 3 knots",
-  "visibility": "10 miles",
+  "wind": "E at 3 knots",
+  "visibility": "7 miles",
   "runway": null,
-  "pressure": "1016.6 mb",
-  "sky": "broken clouds at 900 feet; overcast at 1700 feet",
+  "pressure": "1016.9 mb",
+  "sky": "a few clouds at 500 feet; scattered clouds at 1200 feet; broken clouds at 2200 feet",
   "precipitation": null,
-  "local_time": "2026-01-03 23:53:00-08:00"
+  "local_time": "2026-01-04 01:53:00-08:00"
 }
