@@ -1,11 +1,11 @@
 {
-  "temperature": "60.1 F",
-  "dewpoint": "44.1 F",
-  "wind": "calm",
+  "temperature": "68.0 F",
+  "dewpoint": "34.0 F",
+  "wind": "E at 6 knots",
   "visibility": "10 miles",
-  "runway": null,
+  "runway": "on runway 25L, from 1200 to greater than 6000 meters",
   "pressure": "1015.6 mb",
-  "sky": "a few clouds at 25000 feet; scattered clouds at 30000 feet",
+  "sky": "a few clouds at 23000 feet; scattered clouds at 27000 feet; broken clouds at 30000 feet",
   "precipitation": null,
-  "local_time": "2026-04-05 06:53:00-07:00"
+  "local_time": "2026-04-05 08:53:00-07:00"
 }
