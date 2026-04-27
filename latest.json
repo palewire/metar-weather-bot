@@ -1,11 +1,11 @@
 {
   "temperature": "59.0 F",
-  "dewpoint": "46.0 F",
-  "wind": "W at 9 knots",
+  "dewpoint": "48.0 F",
+  "wind": "W at 11 knots",
   "visibility": "10 miles",
   "runway": null,
   "pressure": "1015.2 mb",
-  "sky": "a few clouds at 2000 feet; broken clouds at 6500 feet",
+  "sky": "a few clouds at 2000 feet; overcast at 7000 feet",
   "precipitation": null,
-  "local_time": "2026-04-27 02:53:00-07:00"
+  "local_time": "2026-04-27 04:53:00-07:00"
 }
