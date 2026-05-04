@@ -1,11 +1,11 @@
 {
   "temperature": "60.1 F",
-  "dewpoint": "48.9 F",
-  "wind": "SW at 6 knots",
+  "dewpoint": "51.1 F",
+  "wind": "WSW at 13 knots",
   "visibility": "10 miles",
   "runway": null,
-  "pressure": "1014.9 mb",
+  "pressure": "1015.6 mb",
   "sky": "a few clouds at 2000 feet; broken clouds at 5500 feet",
   "precipitation": null,
-  "local_time": "2026-05-03 21:53:00-07:00"
+  "local_time": "2026-05-03 23:53:00-07:00"
 }
