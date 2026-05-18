@@ -1,11 +1,11 @@
 {
-  "temperature": "69.1 F",
+  "temperature": "70.0 F",
   "dewpoint": "54.0 F",
-  "wind": "WSW at 7 knots",
+  "wind": "WSW at 12 knots, gusting to 21 knots",
   "visibility": "7 miles",
   "runway": null,
-  "pressure": "1012.2 mb",
-  "sky": "a few clouds at 3600 feet; scattered clouds at 4400 feet",
+  "pressure": "1012.5 mb",
+  "sky": "clear",
   "precipitation": null,
-  "local_time": "2026-05-18 10:53:00-07:00"
+  "local_time": "2026-05-18 12:53:00-07:00"
 }
