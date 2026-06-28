@@ -1,11 +1,11 @@
 {
   "temperature": "64.0 F",
   "dewpoint": "57.0 F",
-  "wind": "calm",
+  "wind": "WSW at 4 knots",
   "visibility": "10 miles",
   "runway": null,
   "pressure": "1012.9 mb",
-  "sky": "broken clouds at 2300 feet; overcast at 2900 feet",
+  "sky": "scattered clouds at 2200 feet; overcast at 3200 feet",
   "precipitation": null,
-  "local_time": "2026-06-28 02:53:00-07:00"
+  "local_time": "2026-06-28 05:30:00-07:00"
 }
